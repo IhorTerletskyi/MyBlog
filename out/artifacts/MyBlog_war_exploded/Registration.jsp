@@ -12,9 +12,9 @@
 </head>
 <body>
 <form action="/login?newuser=yes" method="post">
-    Your login<input type="text" name="login"><br>
-    New password<input type="password" name="password"><br>
-    Your Name<input type="text" name="name"><br>
+    Your login<input type="text" name="login" required><br>
+    New password<input type="password" name="password" required><br>
+    Your Name<input type="text" name="name" required><br>
     Author<input type="radio" name="role" value="author">
     Admin<input type="radio" name="role" value="admin">
     <input type="submit" value="Register">
